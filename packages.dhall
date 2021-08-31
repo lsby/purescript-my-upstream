@@ -35,4 +35,18 @@
   , repo = "https://github.com/lsby/purescript-globals"
   , version = "v4.1.0_spago"
   }
+, flare = {
+  dependencies = [
+    "console"
+    , "effect"
+    , "prelude"
+    , "psci-support"
+    , "assert"
+    , "console"
+    , "maybe"
+    , "functions"
+  ]
+  , repo = "https://github.com/lsby/purescript-flare"
+  , version = "v6.0.1_spago"
+  }
 }
