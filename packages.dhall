@@ -19,7 +19,7 @@
     , "maybe"
   ]
   , repo = "https://github.com/lsby/purescript-smolder"
-  , version = "v12.3.0_spago"
+  , version = "ls_v1.0.0"
   }
 , globals =
   { dependencies = [
@@ -33,7 +33,7 @@
     , "functions"
   ]
   , repo = "https://github.com/lsby/purescript-globals"
-  , version = "v4.1.0_spago"
+  , version = "ls_v1.0.0"
   }
 , flare = {
   dependencies = [
@@ -47,6 +47,6 @@
     , "functions"
   ]
   , repo = "https://github.com/lsby/purescript-flare"
-  , version = "v6.0.1_spago"
+  , version = "ls_v1.0.0"
   }
 }
