@@ -54,4 +54,33 @@
   , repo = "https://github.com/lsby/purescript-eff"
   , version = "ls_v1.0.0"
   }
+, phantom = {
+  dependencies =
+  [ "console"
+  , "effect"
+  , "prelude"
+  , "psci-support"
+  , "prelude"
+  , "aff"
+  , "foreign"
+  , "datetime"
+  , "encoding"
+  , "nullable"
+  , "console"
+  , "psci-support"
+  , "test-unit"
+  , "arrays"
+  , "either"
+  , "exceptions"
+  , "foldable-traversable"
+  , "functions"
+  , "lists"
+  , "maybe"
+  , "strings"
+  , "transformers"
+  , "tuples"
+  ]
+  , repo = "https://github.com/lsby/purescript-phantom"
+  , version = "ls_v1.0.0"
+  }
 }
