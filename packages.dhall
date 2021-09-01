@@ -98,4 +98,33 @@
   , repo = "https://github.com/lsby/purescript-jquery"
   , version = "ls_v1.0.0"
   }
+, dom = {
+  dependencies =
+  [ "prelude"
+  , "psci-support"
+  , "arraybuffer-types"
+  , "enums"
+  , "foldable-traversable"
+  , "js-date"
+  , "media-types"
+  , "nullable"
+  , "prelude"
+  , "unsafe-coerce"
+  , "test-unit"
+  , "eff"
+  , "bifunctors"
+  , "either"
+  , "integers"
+  , "lists"
+  , "math"
+  , "maybe"
+  , "newtype"
+  , "partial"
+  , "strings"
+  , "transformers"
+  , "tuples"
+  ]
+  , repo = "https://github.com/lsby/purescript-dom"
+  , version = "ls_v1.0.0"
+  }
 }
