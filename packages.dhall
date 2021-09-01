@@ -83,4 +83,19 @@
   , repo = "https://github.com/lsby/purescript-phantom"
   , version = "ls_v1.0.0"
   }
+, jquery = {
+  dependencies =
+  [ "console"
+  , "effect"
+  , "prelude"
+  , "psci-support"
+  , "foreign"
+  , "foldable-traversable"
+  , "maybe"
+  , "partial"
+  , "transformers"
+  ]
+  , repo = "https://github.com/lsby/purescript-jquery"
+  , version = "ls_v1.0.0"
+  }
 }
