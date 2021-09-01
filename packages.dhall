@@ -98,33 +98,4 @@
   , repo = "https://github.com/lsby/purescript-jquery"
   , version = "ls_v1.0.0"
   }
-, test-unit = {
-  dependencies =
-  [ "aff"
-  , "avar"
-  , "console"
-  , "effect"
-  , "either"
-  , "free"
-  , "lists"
-  , "prelude"
-  , "psci-support"
-  , "quickcheck"
-  , "strings"
-  , "control"
-  , "datetime"
-  , "exceptions"
-  , "foldable-traversable"
-  , "integers"
-  , "lcg"
-  , "maybe"
-  , "newtype"
-  , "parallel"
-  , "refs"
-  , "transformers"
-  , "tuples"
-  ]
-  , repo = "https://github.com/lsby/purescript-test-unit"
-  , version = "ls_v1.0.0"
-  }
 }
