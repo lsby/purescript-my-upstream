@@ -49,4 +49,9 @@
   , repo = "https://github.com/lsby/purescript-flare"
   , version = "ls_v1.0.0"
   }
+, eff = {
+  dependencies = ["console", "effect", "prelude", "psci-support" ]
+  , repo = "https://github.com/lsby/purescript-eff"
+  , version = "ls_v1.0.0"
+  }
 }
