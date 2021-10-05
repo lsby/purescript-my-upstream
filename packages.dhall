@@ -127,4 +127,15 @@
   , repo = "https://github.com/lsby/purescript-dom"
   , version = "ls_v1.0.0"
   }
+, hbydom = {
+  dependencies =
+  [ "console"
+  , "effect"
+  , "prelude"
+  , "psci-support"
+  , "either"
+  ]
+  , repo = "https://github.com/lsby/purescript-hbydom"
+  , version = "v0.0.2"
+  }
 }
