@@ -135,7 +135,7 @@
   , "psci-support"
   , "either"
   ]
-  , repo = "https://github.com/lsby/purescript-hbydom"
-  , version = "v0.0.2"
+  , repo = "https://github.com/lsby/purescript-hby-dom"
+  , version = "v0.0.3"
   }
 }
