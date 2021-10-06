@@ -127,7 +127,7 @@
   , repo = "https://github.com/lsby/purescript-dom"
   , version = "ls_v1.0.0"
   }
-, hbydom = {
+, hby-dom = {
   dependencies =
   [ "console"
   , "effect"
