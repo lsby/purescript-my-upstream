@@ -138,4 +138,15 @@
   , repo = "https://github.com/lsby/purescript-hby-dom"
   , version = "v0.0.3"
   }
+, hby-tools = {
+  dependencies =
+  [ "console"
+  , "effect"
+  , "prelude"
+  , "psci-support"
+  , "either"
+  ]
+  , repo = "https://github.com/lsby/purescript-hby-tools"
+  , version = "v0.0.1"
+  }
 }
