@@ -163,6 +163,6 @@
   , "hby-tools"
   ]
   , repo = "https://github.com/lsby/purescript-hby-sweb"
-  , version = "v0.0.2"
+  , version = "v0.0.3"
   }
 }
