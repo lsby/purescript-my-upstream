@@ -134,9 +134,11 @@
   , "prelude"
   , "psci-support"
   , "either"
+  , "smolder"
+  , "foldable-traversable"
   ]
   , repo = "https://github.com/lsby/purescript-hby-dom"
-  , version = "v0.0.3"
+  , version = "v0.0.7"
   }
 , hby-tools = {
   dependencies =
@@ -145,8 +147,22 @@
   , "prelude"
   , "psci-support"
   , "either"
+  , "exceptions"
   ]
   , repo = "https://github.com/lsby/purescript-hby-tools"
-  , version = "v0.0.1"
+  , version = "v0.0.3"
+  }
+, hby-swbe = {
+  dependencies =
+  [ "console"
+  , "effect"
+  , "prelude"
+  , "psci-support"
+  , "signal"
+  , "hby-dom"
+  , "hby-tools"
+  ]
+  , repo = "https://github.com/lsby/purescript-hby-sweb"
+  , version = "v0.0.2"
   }
 }
