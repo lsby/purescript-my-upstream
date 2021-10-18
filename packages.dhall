@@ -152,7 +152,7 @@
   , repo = "https://github.com/lsby/purescript-hby-tools"
   , version = "v0.0.3"
   }
-, hby-swbe = {
+, hby-sweb = {
   dependencies =
   [ "console"
   , "effect"
