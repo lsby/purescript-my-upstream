@@ -49,7 +49,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           name: ${{ steps.mk_tag.outputs.tag_time }}
-          message: ""
+          message: "mk_release"
           draft: false
           prerelease: false
           tag: ${{ steps.mk_tag.outputs.tag_time }}
