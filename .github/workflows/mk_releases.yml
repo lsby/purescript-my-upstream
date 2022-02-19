@@ -3,6 +3,7 @@ name: mk_releases
 on:
   push:
     branches: [re]
+  workflow_dispatch:
 
 jobs:
   build:
