@@ -44,12 +44,10 @@ jobs:
         run: |
           git checkout re
 
-      - uses: nickatnight/releases-action@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+      - uses: softprops/action-gh-release@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           name: ${{ steps.mk_tag.outputs.tag_time }}
-          message: "mk_release"
-          draft: false
-          prerelease: false
-          tag: ${{ steps.mk_tag.outputs.tag_time }}
+          tag_name: ${{ steps.mk_tag.outputs.tag_time }}
+          files: |
+            packages.dhall
