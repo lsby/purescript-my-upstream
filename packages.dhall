@@ -268,4 +268,50 @@
   , repo = "https://github.com/lsby/purescript-hby-quickcheck"
   , version = "ls_v1.0.0"
   }
+, mason-prelude = {
+  dependencies =
+  [ "console"
+  , "control"
+  , "debug"
+  , "effect"
+  , "either"
+  , "exceptions"
+  , "foldable-traversable"
+  , "functions"
+  , "integers"
+  , "lists"
+  , "math"
+  , "maybe"
+  , "parallel"
+  , "point-free"
+  , "prelude"
+  , "psci-support"
+  , "strings"
+  , "tuples"
+  , "unfoldable"
+  , "unsafe-coerce"
+  ]
+  , repo = "https://github.com/lsby/purescript-mason-prelude"
+  , version = "ls_v1.0.0"
+  }
+, signal = {
+  dependencies =
+  [ "aff"
+  , "effect"
+  , "foldable-traversable"
+  , "functions"
+  , "lists"
+  , "maybe"
+  , "prelude"
+  , "psci-support"
+  , "refs"
+  , "test-unit"
+  , "datetime"
+  , "either"
+  , "exceptions"
+  , "tuples"
+  ]
+  , repo = "https://github.com/lsby/purescript-signal"
+  , version = "ls_v1.0.0"
+  }
 }
