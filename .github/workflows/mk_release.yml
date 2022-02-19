@@ -14,12 +14,8 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: mk_tag
-        id: mk_tag
-        uses: mcpierce/github-commit-timestamp-tagger@master
-        with:
-          repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          base_version: "re"
+      - uses: in-green-pastures/github-action-repository-timestamps@latest
+        id: timestamps
 
       - name: update_README
         run: |
@@ -29,7 +25,7 @@ jobs:
           echo '```' >> README.md
           echo 'let upstream =' >> README.md
           echo '      ...' >> README.md
-          echo '      /\  https://github.com/lsby/purescript-my-upstream/releases/download/'${{ steps.mk_tag.outputs.tag_time }}'/packages.dhall' >> README.md
+          echo '      /\  https://github.com/lsby/purescript-my-upstream/releases/download/'${{ steps.timestamps.outputs.pushed-at }}'/packages.dhall' >> README.md
           git config --local user.email "bot@github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "update_README" -a
@@ -47,7 +43,7 @@ jobs:
       - uses: softprops/action-gh-release@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          name: ${{ steps.mk_tag.outputs.tag_time }}
-          tag_name: ${{ steps.mk_tag.outputs.tag_time }}
+          name: ${{ steps.timestamps.outputs.pushed-at }}
+          tag_name: ${{ steps.timestamps.outputs.pushed-at }}
           files: |
             packages.dhall
