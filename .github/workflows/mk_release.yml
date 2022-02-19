@@ -48,6 +48,7 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: ${{ steps.mk_tag.outputs.tag_time }}
+          prerelease: false
           title: ${{ steps.mk_tag.outputs.tag_time }}
           files: |
             packages.dhall
