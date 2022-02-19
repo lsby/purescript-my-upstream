@@ -44,11 +44,12 @@ jobs:
         run: |
           git checkout re
 
-      - uses: "marvinpinto/action-automatic-releases@latest"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: ${{ steps.mk_tag.outputs.tag_time }}
+      - uses: nickatnight/releases-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          name: ${{ steps.mk_tag.outputs.tag_time }}
+          message: ""
+          draft: false
           prerelease: false
-          title: ${{ steps.mk_tag.outputs.tag_time }}
-          files: |
-            packages.dhall
+          tag: ${{ steps.mk_tag.outputs.tag_time }}
