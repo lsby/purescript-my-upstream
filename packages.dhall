@@ -294,4 +294,9 @@
   , repo = "https://github.com/lsby/purescript-mason-prelude"
   , version = "ls_v1.0.0"
   }
+, hby-memoize-one = {
+  dependencies = [ "console", "effect", "prelude" ]
+  , repo = "https://github.com/lsby/purescript-hby-memoize-one"
+  , version = "v0.0.1"
+  }
 }
