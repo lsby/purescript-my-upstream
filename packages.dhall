@@ -297,6 +297,6 @@
 , hby-memoize-one = {
   dependencies = [ "console", "effect", "prelude" ]
   , repo = "https://github.com/lsby/purescript-hby-memoize-one"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 }
