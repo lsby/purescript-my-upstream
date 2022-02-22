@@ -295,8 +295,24 @@
   , version = "ls_v1.0.0"
   }
 , hby-memoize-one = {
-  dependencies = [ "console", "effect", "prelude" ]
+  dependencies =
+  [ "console"
+  , "effect"\
+  , "prelude"
+  ]
   , repo = "https://github.com/lsby/purescript-hby-memoize-one"
   , version = "v0.0.2"
+  }
+, hby-react = {
+  dependencies =
+  [ "argonaut"
+  , "effect"
+  , "hby-memoize-one"
+  , "hby-task"
+  , "prelude"
+  , "tuples"
+  ]
+  , repo = "https://github.com/lsby/purescript-hby-react"
+  , version = "v0.0.1"
   }
 }
