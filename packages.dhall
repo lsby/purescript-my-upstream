@@ -284,7 +284,7 @@
 , hby-memoize-one = {
   dependencies =
   [ "console"
-  , "effect"\
+  , "effect"
   , "prelude"
   ]
   , repo = "https://github.com/lsby/purescript-hby-memoize-one"
