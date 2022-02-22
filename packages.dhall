@@ -152,19 +152,6 @@
   , repo = "https://github.com/lsby/purescript-hby-tools"
   , version = "v0.0.3"
   }
-, hby-sweb = {
-  dependencies =
-  [ "console"
-  , "effect"
-  , "prelude"
-  , "psci-support"
-  , "signal"
-  , "hby-dom"
-  , "hby-tools"
-  ]
-  , repo = "https://github.com/lsby/purescript-hby-sweb"
-  , version = "v0.0.3"
-  }
 , hby-task = {
   dependencies =
   [ "console"
