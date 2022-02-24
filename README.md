@@ -3,4 +3,4 @@
 ```
 let upstream =
       ...
-      /\  https://github.com/lsby/purescript-my-upstream/releases/download/1645551435/packages.dhall
+      /\  https://github.com/lsby/purescript-my-upstream/releases/download/1645666608/packages.dhall
