@@ -313,4 +313,15 @@
   , repo = "https://github.com/lsby/purescript-hby-electron.git"
   , version = "v0.0.1"
   }
+, hby-express = {
+  dependencies =
+  [ "argonaut"
+  , "console"
+  , "effect"
+  , "hby-task"
+  , "prelude"
+  ]
+  , repo = "https://github.com/lsby/purescript-hby-express.git"
+  , version = "v0.0.1"
+  }
 }
