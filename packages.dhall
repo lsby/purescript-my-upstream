@@ -332,6 +332,6 @@
   , "prelude"
   ]
   , repo = "https://github.com/lsby/purescript-hby-bom.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 }
