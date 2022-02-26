@@ -324,4 +324,14 @@
   , repo = "https://github.com/lsby/purescript-hby-express.git"
   , version = "v0.0.1"
   }
+, hby-bom = {
+  dependencies =
+  [ "console"
+  , "effect"
+  , "hby-task"
+  , "prelude"
+  ]
+  , repo = "https://github.com/lsby/purescript-hby-bom.git"
+  , version = "v0.0.1"
+  }
 }
