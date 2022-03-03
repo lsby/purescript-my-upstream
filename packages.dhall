@@ -334,7 +334,7 @@
   , repo = "https://github.com/lsby/purescript-hby-bom.git"
   , version = "v0.0.3"
   }
-, hby-jsdata = {
+, hby-js-data = {
   dependencies =
   [ "console"
   , "effect"
