@@ -300,7 +300,7 @@
   , "tuples"
   ]
   , repo = "https://github.com/lsby/purescript-hby-react"
-  , version = "v0.0.11"
+  , version = "v0.0.12"
   }
 , hby-electron = {
   dependencies =
