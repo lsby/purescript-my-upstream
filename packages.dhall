@@ -340,7 +340,7 @@
   , "effect"
   , "prelude"
   ]
-  , repo = "https://github.com/lsby/purescript-jsdata.git"
+  , repo = "https://github.com/lsby/purescript-hby-jsdata.git"
   , version = "v0.0.1"
   }
 }
