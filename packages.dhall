@@ -342,4 +342,15 @@
   , repo = "https://github.com/lsby/purescript-hby-js-data.git"
   , version = "v0.0.1"
   }
+, hby-unsafe = {
+  dependencies =
+  [ "console"
+  , "effect"
+  , "hby-task"
+  , "prelude"
+  , "unsafe-coerce"
+  ]
+  , repo = "https://github.com/lsby/purescript-hby-unsafe.git"
+  , version = "v0.0.1"
+  }
 }
