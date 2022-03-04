@@ -162,10 +162,9 @@
   , "has-js-rep"
   , "ohyes"
   , "prelude"
-  , "psci-support"
   ]
   , repo = "https://github.com/lsby/purescript-hby-task"
-  , version = "v0.0.7"
+  , version = "v0.0.8"
   }
 , ohyes = {
   dependencies =
