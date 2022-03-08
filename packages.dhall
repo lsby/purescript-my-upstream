@@ -321,7 +321,7 @@
   , "prelude"
   ]
   , repo = "https://github.com/lsby/purescript-hby-express.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , hby-bom = {
   dependencies =
