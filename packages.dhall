@@ -154,17 +154,20 @@
   }
 , hby-task = {
   dependencies =
-  [ "console"
+  [ "aff"
+  , "console"
   , "control"
   , "effect"
   , "either"
   , "exceptions"
   , "has-js-rep"
+  , "js-timers"
+  , "maybe"
   , "ohyes"
   , "prelude"
   ]
   , repo = "https://github.com/lsby/purescript-hby-task"
-  , version = "v0.0.8"
+  , version = "v0.0.9"
   }
 , ohyes = {
   dependencies =
