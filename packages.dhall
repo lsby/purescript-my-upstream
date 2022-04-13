@@ -167,7 +167,7 @@
   , "prelude"
   ]
   , repo = "https://github.com/lsby/purescript-hby-task"
-  , version = "v0.0.9"
+  , version = "v0.0.10"
   }
 , ohyes = {
   dependencies =
