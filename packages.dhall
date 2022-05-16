@@ -313,7 +313,7 @@
   , "prelude"
   ]
   , repo = "https://github.com/lsby/purescript-hby-electron.git"
-  , version = "v0.0.1"
+  , version = "v0.0.2"
   }
 , hby-express = {
   dependencies =
