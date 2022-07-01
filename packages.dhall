@@ -188,7 +188,7 @@
   , "variant"
   ]
   , repo = "https://github.com/lsby/purescript-ohyes"
-  , version = "ls-v1.0.1"
+  , version = "ls-v1.0.3"
   }
 , has-js-rep = {
   dependencies =
