@@ -184,6 +184,7 @@
   , "prettier"
   , "psci-support"
   , "spec"
+  , "tuples"
   , "typelevel-prelude"
   , "variant"
   ]
@@ -208,7 +209,7 @@
   , "variant"
   ]
   , repo = "https://github.com/lsby/purescript-has-js-rep"
-  , version = "ls-v1.0.0"
+  , version = "ls-v1.0.1"
   }
 , record-format = {
   dependencies =
