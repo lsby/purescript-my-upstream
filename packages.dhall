@@ -198,18 +198,18 @@
   , "console"
   , "effect"
   , "foldable-traversable"
+  , "foreign"
   , "foreign-object"
   , "functions"
   , "nullable"
   , "prelude"
-  , "psci-support"
   , "record-format"
   , "strings"
   , "typelevel-prelude"
   , "variant"
   ]
   , repo = "https://github.com/lsby/purescript-has-js-rep"
-  , version = "ls-v1.0.1"
+  , version = "ls-v1.0.2"
   }
 , record-format = {
   dependencies =
