@@ -174,6 +174,7 @@
   [ "aff"
   , "effect"
   , "foldable-traversable"
+  , "foreign"
   , "functions"
   , "has-js-rep"
   , "lists"
@@ -182,14 +183,13 @@
   , "nullable"
   , "prelude"
   , "prettier"
-  , "psci-support"
   , "spec"
   , "tuples"
   , "typelevel-prelude"
   , "variant"
   ]
   , repo = "https://github.com/lsby/purescript-ohyes"
-  , version = "ls-v1.0.3"
+  , version = "ls-v1.0.4"
   }
 , has-js-rep = {
   dependencies =
