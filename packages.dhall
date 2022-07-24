@@ -189,7 +189,7 @@
   , "variant"
   ]
   , repo = "https://github.com/lsby/purescript-ohyes"
-  , version = "ls-v1.0.6"
+  , version = "ls-v1.0.7"
   }
 , has-js-rep = {
   dependencies =
@@ -209,7 +209,7 @@
   , "variant"
   ]
   , repo = "https://github.com/lsby/purescript-has-js-rep"
-  , version = "ls-v1.0.3"
+  , version = "ls-v1.0.4"
   }
 , record-format = {
   dependencies =
